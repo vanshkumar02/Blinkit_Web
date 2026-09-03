@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f7f5;
+    color: #222;
+}
+.header {
+    height: 75px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+    gap: 25px;
+    border-bottom: 1px solid #ddd;
+}
+.logo{ 
+    font-size: 28px;
+    font-weight: bold;
+    color: #70b82d;
+}
+.delivery{
+    display :flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+.search {
+    height: 42px;
+    flex: 1;
+    border: 0;
+    background: #f1f1f1;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 14px;
+}
+.login{
+    background: white;
+    font-size: 15px;
+    border :0;
+}
+.cart{
+    border: none;
+    background: rgb(240, 238, 238);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+
+}
+.main {
+    width: 88%;
+    margin: 30px auto;
+}
+.banner{
+    height: 250px;
+    border-radius: 12px;
+    background: linear-gradient(to right, #63b783, #b8d84d);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    overflow: hidden
+}
+.banner-content {
+    width: 55%;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.banner p {
+    color: white;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.banner button {
+    background: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
